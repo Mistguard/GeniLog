@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2cd8615-80f0-4d08-9adf-c8dd162c6051" name="Default Changelist" comment="Avancement du TP">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nc/univ/Automate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nc/univ/Etat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nc/univ/Transition.java" afterDir="false" />
+    <list default="true" id="e2cd8615-80f0-4d08-9adf-c8dd162c6051" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/nc/univ/RunAutomate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nc/univ/ClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nc/univ/Automate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nc/univ/Automate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nc/univ/Etat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nc/univ/Etat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager">
+    <configuration name="RunAutomate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nc.univ.RunAutomate" />
+      <module name="GeniLog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunAutomate" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e2cd8615-80f0-4d08-9adf-c8dd162c6051" name="Default Changelist" comment="" />
@@ -62,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585191707639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Avancement du TP">
+      <created>1585194637897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585194637897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -80,18 +99,19 @@
       <screen x="1920" y="0" width="1280" height="680" />
     </state>
     <state x="2014" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1585191434555" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1585194505801">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1585194922402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194505801" />
-    <state x="269" y="0" key="CommitChangelistDialog2" timestamp="1585194623092">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194922402" />
+    <state x="269" y="0" key="CommitChangelistDialog2" timestamp="1585194636906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="269" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194623092" />
+    <state x="269" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194636906" />
     <state x="2144" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1585191706672" />
-    <state x="2152" y="73" key="Vcs.Push.Dialog.v2" timestamp="1585191716826">
-      <screen x="1920" y="0" width="1280" height="680" />
+    <state x="278" y="88" key="Vcs.Push.Dialog.v2" timestamp="1585194645568">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="278" y="88" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194645568" />
     <state x="2152" y="73" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1585191716826" />
     <state x="2256" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585191465218">
       <screen x="1920" y="0" width="1280" height="680" />

@@ -26,7 +26,7 @@ public class Etat {
         }
 
         if(find){
-            return transitions.get(i).getArrivee().traiterMot(mot);
+            return transitions.get(i).getArrivee().traiterMot(mot.substring(1));
         }else{
             return false;
         }
