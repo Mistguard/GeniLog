@@ -21,13 +21,13 @@ public class Etat {
             return false;
         }else{
             boolean reconnu = false;
-            while(!reconnu && i<mot.length()){
+            while(!reconnu && i<mot.length()-1){
                 if(transitions.get(i).getArrivee().traiterMot(mot.substring(1)) == true){
                     reconnu = true;
                 }
                 i++;
             }
-            return transitions.get(i-1).getArrivee().traiterMot(mot.substring(1));
+            return transitions.get(i).getArrivee().traiterMot(mot.substring(1));
         }
     }
 
