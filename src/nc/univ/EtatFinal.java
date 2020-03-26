@@ -1,24 +1,12 @@
 package nc.univ;
 
-import java.util.ArrayList;
-
-public class Etat {
-
-    protected ArrayList<Transition> transitions;
-
-    public ArrayList<Transition> getTransitions() {
-        return transitions;
-    }
-
-    public void setTransitions(ArrayList<Transition> transitions) {
-        this.transitions = transitions;
-    }
+public class EtatFinal extends Etat {
 
     public boolean traiterMot(String mot){
         int i=0;
 
         if(mot.length()<=0){
-            return false;
+            return true;
         }else{
             boolean reconnu = false;
             while(!reconnu && i<mot.length()){
@@ -29,10 +17,6 @@ public class Etat {
             }
             return transitions.get(i-1).getArrivee().traiterMot(mot.substring(1));
         }
-    }
-
-    public Etat(){
-        this.transitions = new ArrayList<Transition>();
     }
 
 }

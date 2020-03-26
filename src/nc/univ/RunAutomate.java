@@ -5,7 +5,7 @@ public class RunAutomate {
         Etat etat1 = new Etat();
         Etat etat2 = new Etat();
         Etat etat3 = new Etat();
-        Etat etat4 = new Etat();
+        EtatFinal etat4 = new EtatFinal();
 
         Automate auto = new Automate(etat1);
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2cd8615-80f0-4d08-9adf-c8dd162c6051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nc/univ/RunAutomate.java" afterDir="false" />
+    <list default="true" id="e2cd8615-80f0-4d08-9adf-c8dd162c6051" name="Default Changelist" comment="Avancement du TP -3">
+      <change afterPath="$PROJECT_DIR$/src/nc/univ/EtatFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nc/univ/Automate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nc/univ/Automate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nc/univ/Etat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nc/univ/Etat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nc/univ/RunAutomate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nc/univ/RunAutomate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +81,23 @@
       <option name="project" value="LOCAL" />
       <updated>1585194637897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Avancement du TP -2">
+      <created>1585195542984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585195542984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test commit" />
     <MESSAGE value="Ajout de packages" />
     <MESSAGE value="Avancement du TP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avancement du TP" />
+    <MESSAGE value="Avancement du TP -2" />
+    <MESSAGE value="Avancement du TP -3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avancement du TP -3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2152" y="0" key="#Project_Structure" timestamp="1585191485959">
@@ -103,15 +112,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194922402" />
-    <state x="269" y="0" key="CommitChangelistDialog2" timestamp="1585194636906">
+    <state x="269" y="0" key="CommitChangelistDialog2" timestamp="1585196565903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="269" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194636906" />
+    <state x="269" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585196565903" />
     <state x="2144" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1585191706672" />
-    <state x="278" y="88" key="Vcs.Push.Dialog.v2" timestamp="1585194645568">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585197481072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="278" y="88" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585194645568" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585197481072" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585197481072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585197481072" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585197481071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585197481071" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585197481072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585197481072" />
+    <state x="278" y="88" key="Vcs.Push.Dialog.v2" timestamp="1585195553975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="278" y="88" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585195553975" />
     <state x="2152" y="73" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1585191716826" />
     <state x="2256" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585191465218">
       <screen x="1920" y="0" width="1280" height="680" />
